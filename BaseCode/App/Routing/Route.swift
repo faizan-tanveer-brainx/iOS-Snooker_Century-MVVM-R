@@ -20,8 +20,6 @@ enum Route {
             case .login:
                 let viewModel = LoginViewModel()
                 return LoginViewController(viewModel: viewModel)
-                
         }
-
     }
 }
