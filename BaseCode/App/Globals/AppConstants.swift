@@ -17,6 +17,8 @@ class AppConstants {
         static let smallCharacter = "\(passwordMustContainAtLeast) a small letter"
         static let capitalLetter = "\(passwordMustContainAtLeast) a capital letter"
         static let eightCharacters = "\(passwordMustContainAtLeast) 8 characters"
+        static let invalidEmail = "Invalid Email"
+        static let invalidPassword = "Invalid Password"
     }
     
     struct Regex {

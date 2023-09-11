@@ -6,7 +6,15 @@
 //
 
 import Foundation
+import UIKit
 
 class LoginViewController: ViewController<LoginViewModel> {
+    
+    // MARK: - Action Methods
+    
+    @IBAction
+    func loginButtonTap(_ sender: UIButton) {
+        
+    }
     
 }

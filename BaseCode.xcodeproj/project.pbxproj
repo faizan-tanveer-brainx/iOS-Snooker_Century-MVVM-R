@@ -42,10 +42,10 @@
 		18209EE72A7261C30024F47B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18209EE62A7261C30024F47B /* Storage.swift */; };
 		26DDA9F12AAF457300964E56 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA9F02AAF457300964E56 /* LoginViewModel.swift */; };
 		26DDA9F32AAF459900964E56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA9F22AAF459900964E56 /* LoginViewController.swift */; };
-		26DDA9F52AAF45CF00964E56 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DDA9F42AAF45CF00964E56 /* LoginViewController.storyboard */; };
 		26DDA9F72AAF49AC00964E56 /* EmailPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA9F62AAF49AC00964E56 /* EmailPropertyWrapper.swift */; };
 		26DDA9F92AAF4C4A00964E56 /* PasswordPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA9F82AAF4C4A00964E56 /* PasswordPropertyWrapper.swift */; };
 		26DDA9FB2AAF54A400964E56 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA9FA2AAF54A400964E56 /* AppConstants.swift */; };
+		26DDA9FD2AAF668000964E56 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DDA9FC2AAF668000964E56 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,10 +84,10 @@
 		18209EE62A7261C30024F47B /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		26DDA9F02AAF457300964E56 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		26DDA9F22AAF459900964E56 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		26DDA9F42AAF45CF00964E56 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		26DDA9F62AAF49AC00964E56 /* EmailPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPropertyWrapper.swift; sourceTree = "<group>"; };
 		26DDA9F82AAF4C4A00964E56 /* PasswordPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPropertyWrapper.swift; sourceTree = "<group>"; };
 		26DDA9FA2AAF54A400964E56 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		26DDA9FC2AAF668000964E56 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,10 +324,10 @@
 			isa = PBXGroup;
 			children = (
 				26DDA9F02AAF457300964E56 /* LoginViewModel.swift */,
-				26DDA9F42AAF45CF00964E56 /* LoginViewController.storyboard */,
 				26DDA9F22AAF459900964E56 /* LoginViewController.swift */,
 				26DDA9F62AAF49AC00964E56 /* EmailPropertyWrapper.swift */,
 				26DDA9F82AAF4C4A00964E56 /* PasswordPropertyWrapper.swift */,
+				26DDA9FC2AAF668000964E56 /* LoginViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -399,12 +399,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DDA9FD2AAF668000964E56 /* LoginViewController.xib in Resources */,
 				18209EB42A7245720024F47B /* Localizable.strings in Resources */,
 				18209EBF2A72493F0024F47B /* InfoPlist.strings in Resources */,
 				18209E8B2A71466A0024F47B /* LaunchScreen.storyboard in Resources */,
 				18209ECC2A7257940024F47B /* SplashViewController.xib in Resources */,
 				18209E882A71466A0024F47B /* Assets.xcassets in Resources */,
-				26DDA9F52AAF45CF00964E56 /* LoginViewController.storyboard in Resources */,
 				18209E862A7146690024F47B /* Main.storyboard in Resources */,
 				18209EAE2A7245330024F47B /* swiftgen.yml in Resources */,
 			);
