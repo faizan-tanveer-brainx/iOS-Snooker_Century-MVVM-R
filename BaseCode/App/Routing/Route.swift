@@ -10,12 +10,18 @@ import UIKit
 enum Route {
 
     case splash
+    case login
 
     func controller() -> UIViewController {
         switch self {
-        case .splash:
-            let viewModel = SplashViewModel()
-            return SplashViewController(viewModel: viewModel)
+            case .splash:
+                let viewModel = SplashViewModel()
+                return SplashViewController(viewModel: viewModel)
+            case .login:
+                let viewModel = LoginViewModel()
+                return LoginViewController(viewModel: viewModel)
+                
         }
+
     }
 }
