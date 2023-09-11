@@ -9,5 +9,10 @@ import Foundation
 
 class LoginViewModel: ViewModel {
     
+    // MARK: - Instance Properties
+    
+    @Email var email: String
+    @Password var password: String
+
     
 }
