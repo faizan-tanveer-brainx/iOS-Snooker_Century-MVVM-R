@@ -11,8 +11,8 @@ class LoginViewModel: ViewModel {
     
     // MARK: - Instance Properties
     
-    @Email var email: String
-    @Password var password: String
+    var email: String = ""
+    var password: String = ""
 
     
 }

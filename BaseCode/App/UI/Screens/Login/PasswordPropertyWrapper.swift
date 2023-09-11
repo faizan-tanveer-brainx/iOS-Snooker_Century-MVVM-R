@@ -19,7 +19,7 @@ class Password {
     var wrappedValue: String {
         get { password }
         set(newValue) {
-            if password.isValidPassword() {
+            if newValue.isValidPassword() {
                 password = newValue
             }
         }
